@@ -1,0 +1,147 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 16px;
+  --background: #080808; /* Deep Charcoal */
+  --foreground: #F5F5F5; /* Off White */
+  --card: #121212;
+  --card-foreground: #F5F5F5;
+  --popover: #121212;
+  --popover-foreground: #F5F5F5;
+  --primary: #C5A059; /* Gold */
+  --primary-foreground: #121212;
+  --secondary: #1A1A1A;
+  --secondary-foreground: #C5A059;
+  --muted: #1A1A1A;
+  --muted-foreground: #A1A1AA;
+  --accent: #C5A059;
+  --accent-foreground: #121212;
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+  --border: rgba(197, 160, 89, 0.15); /* Subtle Gold border */
+  --input: transparent;
+  --input-background: #1A1A1A;
+  --switch-background: #3F3F46;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --ring: #C5A059;
+  --radius: 0rem; /* Boxy minimalist look */
+}
+
+.dark {
+  --background: #080808;
+  --foreground: #F5F5F5;
+  --card: #121212;
+  --card-foreground: #F5F5F5;
+  --popover: #121212;
+  --popover-foreground: #F5F5F5;
+  --primary: #C5A059;
+  --primary-foreground: #121212;
+  --secondary: #1A1A1A;
+  --secondary-foreground: #C5A059;
+  --muted: #1A1A1A;
+  --muted-foreground: #A1A1AA;
+  --accent: #C5A059;
+  --accent-foreground: #121212;
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+  --border: rgba(197, 160, 89, 0.15);
+  --input: #1A1A1A;
+  --ring: #C5A059;
+}
+
+@theme inline {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-switch-background: var(--switch-background);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    @apply font-serif;
+  }
+
+  h1 {
+    @apply text-5xl md:text-7xl font-normal leading-tight;
+  }
+
+  h2 {
+    @apply text-3xl md:text-5xl font-normal leading-snug;
+  }
+
+  h3 {
+    @apply text-2xl md:text-4xl font-normal leading-snug;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl font-normal leading-snug;
+  }
+
+  p {
+    @apply text-base md:text-lg font-light leading-relaxed;
+  }
+
+
+  button {
+    @apply font-sans uppercase tracking-widest text-xs py-3 px-6 transition-all;
+  }
+}
+
+/* Premium Animations & Utilities */
+@layer utilities {
+  .vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+
+  .animate-scroll-line {
+    animation: scroll-line 2.5s infinite;
+  }
+
+  .animate-glow {
+    box-shadow: 0 0 20px rgba(197, 160, 89, 0.3);
+  }
+
+  @keyframes scroll-line {
+    0% { transform: translateY(-100%); }
+    50% { transform: translateY(0); }
+    100% { transform: translateY(100%); }
+  }
+}
