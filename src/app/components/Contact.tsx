@@ -37,7 +37,7 @@ export function Contact() {
                 <div>
                   <h3 className="text-primary text-[10px] tracking-[0.4em] font-sans uppercase mb-4 font-medium opacity-60">Strategic Advisory</h3>
                   <a href="tel:+27731914111" className="text-white text-2xl md:text-4xl font-serif hover:italic transition-all duration-300">
-                    +27 (73) 191-4111
+                    +27 (78) 670 5801
                   </a>
                 </div>
               </div>
