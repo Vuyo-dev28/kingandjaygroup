@@ -16,17 +16,32 @@ export function Services() {
             className="lg:order-1"
           >
             <span className="text-primary text-[10px] tracking-[0.4em] font-sans uppercase mb-10 block font-medium">
-              OPERATIONAL VENTURES
+              INTEGRATED SOLUTIONS
             </span>
             <h2 className="text-white text-5xl md:text-8xl font-serif mb-16 leading-[1.1]">
-              Strategic Business <br />
-              <span className="italic">Solutions</span> That Drive Results
+              Full-Cycle <br />
+              <span className="italic">Development</span> Services
             </h2>
             
             <div className="max-w-xl">
-              <p className="text-lg md:text-xl text-foreground/70 font-light leading-relaxed mb-16">
-                From high-level consulting to direct operational management, we provide the strategic framework and capital necessary to scale high-potential ventures.
+              <p className="text-lg md:text-xl text-foreground/70 font-light leading-relaxed mb-8">
+                Our integrated model allows us to manage every phase internally — ensuring quality, efficiency, and financial oversight throughout the investment cycle.
               </p>
+              <div className="grid grid-cols-2 gap-x-8 gap-y-4 mb-16">
+                {[
+                  'Strategic Acquisition',
+                  'Cost Control',
+                  'Renovation',
+                  'Landscaping',
+                  'Tar Solutions',
+                  'Paving Solutions'
+                ].map((service, index) => (
+                  <div key={index} className="flex items-center gap-3">
+                    <div className="w-1.5 h-1.5 bg-primary rounded-full"></div>
+                    <span className="text-xs tracking-widest uppercase text-white/60">{service}</span>
+                  </div>
+                ))}
+              </div>
               
               <button className="group relative border border-primary/30 bg-primary/5 hover:bg-primary text-primary hover:text-primary-foreground px-14 py-6 transition-all text-xs tracking-[0.3em] uppercase font-medium backdrop-blur-sm overflow-hidden">
                 <span className="relative z-10">Our Expertise</span>

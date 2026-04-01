@@ -15,16 +15,18 @@ export function About() {
             transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
           >
             <span className="text-primary text-[10px] tracking-[0.4em] font-sans uppercase mb-10 block font-medium">
-              DIVERSIFIED STRATEGY
+              STRATEGIC ACQUISITION & REDEVELOPMENT
             </span>
             <h2 className="text-white text-5xl md:text-8xl font-serif mb-16 leading-[1.1]">
-              Building Sustainable <br />
-              <span className="italic">Businesses</span> Across Industries
+              King and <span className="italic text-primary">Jay Groups</span>
             </h2>
             
             <div className="max-w-xl">
-              <p className="text-lg md:text-xl text-foreground/70 font-light leading-relaxed mb-16">
-                King and Jay Group is a diversified investment company focused on strategic growth, innovation, and long-term value. We partner with industries to identify and nurture ventures that redefine their sectors.
+              <p className="text-lg md:text-xl text-foreground/70 font-light leading-relaxed mb-8">
+                King and Jay Groups is a property investment and development company focused on strategic acquisition, disciplined redevelopment, and profitable resale.
+              </p>
+              <p className="text-base md:text-lg text-foreground/60 font-light leading-relaxed mb-16">
+                We identify undervalued or high-potential properties, enhance them through structured renovation strategies, and reposition them for optimal market performance. Our integrated model allows us to manage every phase internally — from acquisition and cost control to renovation, landscaping, tar and paving solutions.
               </p>
               
               <button className="group relative border border-primary/30 bg-primary/5 hover:bg-primary text-primary hover:text-primary-foreground px-14 py-6 transition-all text-xs tracking-[0.3em] uppercase font-medium backdrop-blur-sm overflow-hidden">

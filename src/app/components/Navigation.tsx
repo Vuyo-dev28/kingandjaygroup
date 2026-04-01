@@ -89,9 +89,9 @@ export function Navigation() {
           
           <div className="flex flex-col space-y-8 mt-12">
             {[
-              { id: 'about', label: 'About Us' },
-              { id: 'services', label: 'Our Services' },
-              { id: 'partnership', label: 'Partnership' },
+              { id: 'about', label: 'Who We Are' },
+              { id: 'services', label: 'Our Expertise' },
+              { id: 'philosophy', label: 'Our Strategy' },
               { id: 'portfolio', label: 'Portfolio' },
               { id: 'contact', label: 'Contact' }
             ].map((item, index) => (

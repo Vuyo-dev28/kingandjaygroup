@@ -15,17 +15,26 @@ export function MissionVision() {
             transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
           >
             <span className="text-primary text-[10px] tracking-[0.4em] font-sans uppercase mb-10 block font-medium">
-              TRACK RECORD
+              CORE PURPOSE
             </span>
             <h2 className="text-white text-5xl md:text-8xl font-serif mb-16 leading-[1.1]">
-              Our Work Speaks <br />
-              <span className="italic">for Itself</span>
+              Mission & <span className="italic text-primary">Vision</span>
             </h2>
             
-            <div className="max-w-xl">
-              <p className="text-lg md:text-xl text-foreground/70 font-light leading-relaxed mb-16">
-                Explore the diverse portfolio of high-impact projects and strategic ventures powered by King and Jay Group. Our success is measured by the sustainable growth of our partners.
-              </p>
+            <div className="max-w-xl space-y-12">
+              <div>
+                <h3 className="text-primary text-[10px] tracking-[0.4em] font-sans uppercase mb-4 font-medium opacity-60">Our Mission</h3>
+                <p className="text-lg md:text-xl text-foreground/70 font-light leading-relaxed">
+                  To strategically acquire and reposition properties through disciplined investment practices, quality renovations, and operational excellence — delivering sustainable value growth and profitable returns.
+                </p>
+              </div>
+              
+              <div>
+                <h3 className="text-primary text-[10px] tracking-[0.4em] font-sans uppercase mb-4 font-medium opacity-60">Our Vision</h3>
+                <p className="text-lg md:text-xl text-foreground/70 font-light leading-relaxed">
+                  To become a trusted leader in property investment and redevelopment, known for transforming undervalued assets into high-performing investments while contributing positively to the communities we operate in.
+                </p>
+              </div>
               
               <button className="group relative border border-primary/30 bg-primary/5 hover:bg-primary text-primary hover:text-primary-foreground px-14 py-6 transition-all text-xs tracking-[0.3em] uppercase font-medium backdrop-blur-sm overflow-hidden">
                 <span className="relative z-10">View Portfolio</span>

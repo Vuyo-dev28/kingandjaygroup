@@ -32,15 +32,15 @@ export function Hero() {
           className="max-w-4xl"
         >
           <span className="text-primary text-[10px] tracking-[0.5em] font-sans uppercase mb-6 block font-medium">
-            Strategic Capital & Growth
+            Invest Smart. Build Strong. Deliver Returns.
           </span>
-          <h1 className="text-white text-[12vw] md:text-[6vw] leading-[1.1] font-normal font-serif mb-10">
-            Invest in Growth. <br />
-            <span className="italic">Build the Future.</span>
+          <h1 className="text-white text-[10vw] md:text-[5vw] leading-[1.1] font-normal font-serif mb-10">
+            Strategic Property Investment & <br />
+            <span className="italic text-primary">Value-Driven Development</span>
           </h1>
 
           <p className="text-white/70 text-lg md:text-2xl font-light font-sans max-w-2xl mb-12 leading-relaxed">
-            King and Jay Group partners with visionary investors to scale high-potential ventures across global markets.
+            We acquire, redevelop, and reposition properties to maximize value and generate measurable returns.
           </p>
           
           <div className="flex flex-wrap gap-6">
@@ -48,15 +48,15 @@ export function Hero() {
               onClick={() => scrollToSection('contact')}
               className="group relative border border-primary bg-primary/10 hover:bg-primary text-primary hover:text-primary-foreground px-12 py-5 transition-all text-xs tracking-[0.3em] uppercase font-medium backdrop-blur-md overflow-hidden"
             >
-              <span className="relative z-10">Explore Opportunities</span>
+              <span className="relative z-10">Explore Investment Opportunities</span>
               <div className="absolute inset-0 bg-primary/20 blur-2xl group-hover:bg-primary transition-all duration-500 opacity-0 group-hover:opacity-100"></div>
             </button>
             
             <button
-              onClick={() => scrollToSection('about')}
+              onClick={() => scrollToSection('portfolio')}
               className="text-white/60 hover:text-white px-8 py-5 text-xs tracking-[0.3em] uppercase font-medium transition-colors"
             >
-              Our Strategy
+              View Our Projects
             </button>
           </div>
         </motion.div>

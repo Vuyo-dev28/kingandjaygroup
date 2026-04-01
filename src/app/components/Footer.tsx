@@ -3,8 +3,8 @@ import { Youtube, Instagram, Linkedin } from 'lucide-react';
 export function Footer() {
   const links = [
     { label: 'ABOUT', id: 'about' },
-    { label: 'SERVICES', id: 'services' },
-    { label: 'PARTNERSHIP', id: 'partnership' },
+    { label: 'EXPERTISE', id: 'services' },
+    { label: 'STRATEGY', id: 'philosophy' },
     { label: 'PORTFOLIO', id: 'portfolio' },
     { label: 'CONTACT', id: 'contact' }
   ];
@@ -46,8 +46,11 @@ export function Footer() {
 
       </div>
       <div className="max-w-[1800px] mx-auto px-6 md:px-12 mt-24 text-center">
+        <p className="text-[10px] tracking-[0.3em] text-foreground/40 uppercase font-light mb-4">
+          Where Strategy Meets Property Growth. • Restoring Potential. Delivering Performance.
+        </p>
         <p className="text-[8px] tracking-[0.4em] text-foreground/20 uppercase font-medium">
-          © {new Date().getFullYear()} King and Jay Group. Strategic Growth & Capital. All Rights Reserved.
+          © {new Date().getFullYear()} King and Jay Group. Strategic Property Investment & Value-Driven Development. All Rights Reserved.
         </p>
       </div>
     </footer>
