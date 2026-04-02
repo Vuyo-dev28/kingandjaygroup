@@ -47,15 +47,12 @@ export function Contact() {
                     kingandjaygroups@gmail.com
                   </a>
                 </div>
-<<<<<<< HEAD
-=======
                 <div>
                   <h3 className="text-primary text-[10px] tracking-[0.4em] font-sans uppercase mb-4 font-medium opacity-60">Strategic Advisory</h3>
-                  <a href="tel:+27731914111" className="text-white text-2xl md:text-4xl font-serif hover:italic transition-all duration-300">
+                  <a href="tel:+27786705801" className="text-white text-2xl md:text-4xl font-serif hover:italic transition-all duration-300">
                     +27 (78) 670 5801
                   </a>
                 </div>
->>>>>>> 36faf377f448a1918f339e95226a3a7e228e4c05
               </div>
 
               <button className="group relative border border-primary/30 bg-primary/5 hover:bg-primary text-primary hover:text-primary-foreground px-14 py-6 transition-all text-xs tracking-[0.3em] uppercase font-medium backdrop-blur-sm overflow-hidden">
